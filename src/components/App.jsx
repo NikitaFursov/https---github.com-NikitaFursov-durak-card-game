@@ -10,6 +10,7 @@ import { OpponentHand } from '../components/OpponentHand';
 import GameControls from '../components/GameControls';
 import GameOverScreen from '../components/GameOverScreen';
 
+
 export default function App() {
   // Состояния игры
   const [deck, setDeck] = useState([]);
